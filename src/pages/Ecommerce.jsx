@@ -1,21 +1,18 @@
 import React from "react";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { GoDotFill } from "react-icons/go";
-import { IoIosMore } from "react-icons/io";
+// import { IoIosMore } from "react-icons/io";
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
 import {
   earningData,
-  medicalproBranding,
-  recentTransactions,
-  weeklyStats,
   dropdownData,
   SparklineAreaData,
-  ecomPieChartData,
+  
 } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
-import product9 from "../data/product9.jpg";
+// import product9 from "../data/product9.jpg";
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -60,11 +57,11 @@ const Ecommerce = () => {
             />
           </div>
         </div>
-        <div className="flex m-3 justify-center gap-1 items-center">
+        <div className="ecommerce-container gap-1 flex m-3 justify-center items-center">
           {earningData.map((item) => (
             <div
               key={item.title}
-              className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl "
+              className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl ecommerce-item"
             >
               <button
                 type="button"
