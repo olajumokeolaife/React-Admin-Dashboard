@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
@@ -28,8 +28,8 @@ import { useStateContext } from "./contexts/ContextProvider";
 
 const App = () => {
   const {
-    setCurrentColor,
-    setCurrentMode,
+    // setCurrentColor,
+    // setCurrentMode,
     currentMode,
     activeMenu,
     currentColor,
