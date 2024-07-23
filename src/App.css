@@ -21,11 +21,11 @@
     justify-items: center;
   }
 
-  .ecommerce-item {
+  /* .ecommerce-item { */
     /* flex: none;
     width: 100%;
     max-width: calc(50% - 1rem); */
-  }
+  /* } */
 }
 
 @media (max-width: 640px) {
